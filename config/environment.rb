@@ -58,7 +58,8 @@ Rails::Initializer.run do |config|
   # no regular words or you'll be exposed to dictionary attacks.
   config.action_controller.session = {
     :session_key => '_bort_session',
-    :secret      => 'a3e2a51a371bb964a4250c21f8d083f9ddb224d455171dcba55518e74af43366e52e3f239773f90aed0ab6caf6554f051504ce7232599d066150dbabff0f1654'
+    :secret      => '7dc2d56fe4fa596c34ef6aaba5f0ce01d6abc0ace3bbfeb754b523b35ba98e4c2cb7cfe2b14da83bf38a4faa253c8d35bcc25d9c295e136225a8742ea3692817'
+    #~ :secret      => 'a3e2a51a371bb964a4250c21f8d083f9ddb224d455171dcba55518e74af43366e52e3f239773f90aed0ab6caf6554f051504ce7232599d066150dbabff0f1654'
   }
 
   # Use the database for sessions instead of the cookie-based default,
